@@ -27,12 +27,19 @@
 -> python manage.py createsuperuser
 -> python manage.py runserver
 
-# Add 'appName' to INSTALLED_APPS. The settings module will be in projectName/settings.py
+# set 
 
+
+# Add 'appName' to INSTALLED_APPS. The settings module will be in projectName/settings.py
 INSTALLED_APPS = [
     ...
     'appName',
 ]
+
+
+# Add Bangladeshi time zoon 'Asia/Dhaka' to TIME_ZONE. The settings module will be in projectName/settings.py
+TIME_ZONE = 'Asia/Dhaka'
+
 
 # Install Django REST framework into the virtual environment
 pip install djangorestframework

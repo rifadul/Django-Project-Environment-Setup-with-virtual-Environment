@@ -27,5 +27,19 @@
 -> python manage.py createsuperuser
 -> python manage.py runserver
 
+# Add 'appName' to INSTALLED_APPS. The settings module will be in projectName/settings.py
+
+INSTALLED_APPS = [
+    ...
+    'appName',
+]
+
 # Install Django REST framework into the virtual environment
 pip install djangorestframework
+
+# Add 'rest_framework' to INSTALLED_APPS. The settings module will be in projectName/settings.py
+
+INSTALLED_APPS = [
+    ...
+    'rest_framework',
+]

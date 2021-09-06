@@ -53,13 +53,13 @@ INSTALLED_APPS = [
 
 
 #image set up:
-in setting.py file set
+in setting.py file set >>
 import os
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
-in urls.py file set
+in urls.py file set >>
 from django.conf import settings
 from django.conf.urls.static import static
 
